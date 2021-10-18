@@ -16,7 +16,6 @@ body{
 }
 
 main{
-    width: 1600px;
 }
     
 .header-initial{
@@ -142,16 +141,14 @@ main{
     font-size: 56px;
     line-height: 60px;
     color: #A0996C;
-    margin: auto;
-    margin-top: 180px;
-    margin-bottom: 64px;
-    width: 1440px;
+    padding: 5rem 5rem 0rem;
+    max-width: 1440px;
 }
 
 .section-coffee__variety{
     
-    width: 1440px;
-    margin: 0 auto;
+    max-width: 1404px;
+
 }
 
 .section-coffee__div{
@@ -160,40 +157,38 @@ main{
     border: none;
     font-size: 30px;
     text-align: center;
-    width: 459px;
+    width: 100%;
     border-radius: 8px;
-    margin: 0 auto;
-    padding:40px;
+    padding: 2rem;
+    min-width: 354px;
 }
 
 .section-coffee__div>h3{
-    padding-bottom: 40px;
     font-size: 24px;
+    padding-top: 8px;
+    padding-bottom: 2rem;
 }
 
 .section-coffee__price{
     display: flex;
-    margin: 0 auto;
-    margin-bottom: 28px;
-    height: 40px;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 .section-coffee__price>h5{
   
     font-family: Gilroy;
-    font-size: 24px;    
+    font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0.04em;
-    margin-left: 14px;
-    margin-top: 7px;
-    color:#969696;                                                                                                                                                                  
+    color: #969696;
+    margin: 0;                                                                                                                                                                
 }
 
 .section-coffee__price>h4{
-    font-weight:700;
     font-size: 32px;
-    
+    margin: 0px;
+    padding-right: 1rem;
 }
 .section-coffee__price>h3{
     color: #0B1D03;
@@ -233,8 +228,9 @@ main{
 }
 
 li>img{
-    margin-bottom: 20px;
+    padding-bottom: 2rem;
 }
+
 
 .section-list__item{
     height: 196px;
@@ -560,14 +556,15 @@ h4:nth-child(5){
     grid-gap: 30px;
     grid-template-columns: auto auto auto;
     background-color: #FFFCF6;
-    padding: 10px;
+    padding: 5rem;
 }
     @media only screen and (max-width: 768px) {
         .section-coffee__ul {
         grid-template-columns: auto auto;
-        justify-content: center;
         }
+
         .variety{
-            margin-left:322px;
+            
+
         }
     }
